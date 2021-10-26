@@ -1,2 +1,0 @@
-# BTL-PHP
-PhamQuocDat
