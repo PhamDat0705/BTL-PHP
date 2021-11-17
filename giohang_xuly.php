@@ -1,0 +1,22 @@
+<?php 
+session_start();
+if(isset($_GET["ma"]))
+{
+	$arrma=$_GET["ma"];
+	if(isset($_SESSION["giohang"]))
+	{
+		if(isset($_SESSION["giohang"][$arrma]))	
+		{
+			$_SESSION["giohang"][$arrma]++;	
+		}else
+		{
+			$_SESSION["giohang"][$arrma]=1;
+		}
+	}else
+	{
+		$_SESSION["giohang"]=array();
+		$_SESSION["giohang"][$arrma]=1;	
+	}
+header("Location:http:main.php?tem=7");
+}
+?>
