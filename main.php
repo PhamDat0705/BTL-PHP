@@ -203,8 +203,14 @@ $resultSp = mysqli_query($conn,$query);
 </div>
 </div>
 <div class="footer">
-Địa chỉ: ADbc
-<a href="admin_login.php">admin</a>
+<div id="right">
+<a> <img src="anh/sns.png" height="50px" width="20%" style="margin-top:20px"/></a>
+       </div>
+       <p font color ="white"  > Copy rights (c). All rights Reseverd | Build by  PQD ||<a href="admin_login.php">Admin Here</a> </p>
+
+   </div>
+
+
 </div>
 	<?php 
 	include("close.php");

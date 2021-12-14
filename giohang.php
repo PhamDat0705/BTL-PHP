@@ -112,7 +112,7 @@ if(isset($_SESSION["giohang"]))
 	</form>
 </table>
 <br />
-<a href="?tem=9">Đặt hàng</a>
+<a href="?tem=9"><img src="" >Thanh Toán</a>
  <?php
 		  } else
 	{
