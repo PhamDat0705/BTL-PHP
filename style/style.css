@@ -143,10 +143,10 @@
 
 	
 .wrapper	{
-	background-color: ;
+
 	width: 100%;
 	height:300px;
-	border: 1px solid #000000;
+	
 	margin: auto;
 	border-spacing: 0px;
 }
@@ -154,7 +154,7 @@
 	border-spacing: 0;
 	width:265px;
 	height:100%;
-	border: 1px solid #000000;
+	
 	float: left;
 }
 .right1{
@@ -184,12 +184,11 @@
   border-radius: 50px;
   margin: 0 .2em 1em;
   transition: all .3s ease;
-  &:hover {
-    background: red;}
+
 }
 
 .menu{
-	background-color: ;
+	
 	width: 100%;
 	height:35px;
 	border: 1px solid #FFFFFF;
@@ -227,7 +226,7 @@ input#sear {
 }
  
 input#sear :placeholder {
-  color: #15131;
+  
 }
  
 .box a {
@@ -244,7 +243,7 @@ input#sear :placeholder {
   border-bottom: 2px ;
 }
 .content{
-	background-color: ;
+	
 	display: table;
 	border: 1px solid #000000;
 	height:1200px;
@@ -252,7 +251,7 @@ input#sear :placeholder {
 	margin: auto;
 }
 .left2{
-	background-color:;
+
 	position:absolute;
 	height:1200px;
 	display: table-cell;

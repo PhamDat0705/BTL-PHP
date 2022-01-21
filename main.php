@@ -84,15 +84,15 @@ $resultSp = mysqli_query($conn,$query);
 <div class="menubar" >
                 
                 	<ul>
-						<li style="height: 40px ; background: #ED6A5A; padding-top: 10px"  ><center><h2>---MENU---</h2></center></li>
+						<li style="height: 40px ; background: #9e2024; padding-top: 10px"  ><center><h2>---MENU---</h2></center></li>
 						<li id="son"><a href="?tem=10">Son</a></li>
 						<li id="mascara"><a href="?tem=11">Mascara</a></li>
 						<li id="kem"><a href="?tem=12">Kem Trang Điểm</a></li>
-						<li style="height: 40px ; background: #ED6A5A; padding-top: 10px"  ><center><h2>---Thương hiệu---</h2></center></li>
+						<li style="height: 40px ; background: #9e2024; padding-top: 10px"  ><center><h2>---Thương hiệu---</h2></center></li>
 						<li id="yeh"><a href="?tem=13">YEHWADAM</a></li>
 						<li id="the_or"><a href="?tem=14">The Ordinary</a></li>
 						<li id="elf"><a href="?tem=15">E.L.F</a></li>
-						<li id="yasuo"><a href="?tem=16"><L></L>oreal</a></li>
+						<li id="yasuo"><a href="?tem=16"><L></L>Oreal</a></li>
 					</ul>
 
 	</div>
@@ -206,7 +206,7 @@ $resultSp = mysqli_query($conn,$query);
 <div id="right">
 <a> <img src="anh/sns.png" height="50px" width="20%" style="margin-top:20px"/></a>
        </div>
-       <p font color ="white"  > Copy rights (c). All rights Reseverd | Build by  PQD ||<a href="admin_login.php">Admin Here</a> </p>
+       <p > Copy rights (c). All rights Reseverd | Build by  PQD ||<a href="admin_login.php">Admin Here</a> </p>
 
    </div>
 
